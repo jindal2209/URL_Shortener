@@ -4,7 +4,8 @@
   "description": "url shortener",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "express": "^4.17.1",
     "mongoose": "^6.0.12",
     "pug": "^3.0.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
